@@ -14,7 +14,19 @@
     "skipLibCheck": true,
     "skipDefaultLibCheck": true,
     "baseUrl": ".",
-    "paths": {}
+    "paths": {
+      "@placecare/pages/patients": ["libs/pages/patients/src/index.ts"],
+      "@placecare/routes": ["libs/shared/routes/src/index.ts"],
+      "@placecare/contracts": ["libs/shared/contracts/src/index.ts"],
+      "@placecare/domains/professional": [
+        "libs/domains/professional/src/index.ts"
+      ],
+      "@placecare/domains/user": ["libs/domains/user/src/index.ts"],
+      "@placecare/pages/layout": ["libs/pages/layout/src/index.ts"],
+      "@placecare/store": ["libs/store/src/index.ts"],
+      "@placecare/ui": ["libs/shared/ui/src/index.ts"],
+      "@placecare/utils": ["libs/shared/utils/src/index.ts"]
+    }
   },
   "exclude": ["node_modules", "tmp"]
 }
